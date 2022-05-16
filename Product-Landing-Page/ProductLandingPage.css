@@ -1,0 +1,180 @@
+#header {
+    padding: 10px;
+    align-items: center;
+    background-color: #eee;
+    font-size: 18px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #ccc;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:650px) {
+    .header {
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+    }
+}
+
+body {
+    background-color: #eee;
+    font-size: 18px;
+}
+
+#header-img {
+    width: 2.3%;
+}
+
+#nav-bar {
+    float: right;
+}
+
+#form input[type='email'] {
+    box-sizing: border-box;
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    margin: 0 0;
+    width: 280px;
+    font-size: 16px;
+}
+
+.tableList {
+    list-style: none;
+}
+
+ul.tableList li {
+    display: inline;
+}
+
+li {
+    margin: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.5s;
+    transition: padding 0.5s;
+    font-size: 22px;
+}
+
+a:hover {
+    background-color: #A8B3BC;
+    padding: 15px;
+    border-radius: 5%
+}
+
+#title {
+    margin-top: 55px;
+}
+
+#form {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 500px 0 500px;
+
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 300px 0 300px;
+}
+
+.headCard {
+    text-align: center;
+    background: #ddd;
+    top: 0px;
+    left: 0pc;
+    width: 100%;
+    padding: 20px;
+    margin: -20px 0 0 0;
+}
+
+#pricing {
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+#warranty {
+    font-size: 20px;
+    margin-left: 500px;
+}
+
+#footer {
+    margin: 0 500px 0 500px;
+}
+
+#submit {
+    padding: 2px 35px 2px 35px;
+    background-color: #ffef96;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+    transition: background-color 1s;
+    width: 150px;
+}
+
+#submit:hover {
+    background-color: #f1c40f;
+}
+
+.select {
+    padding: 2px 35px 2px 35px;
+    background-color: #ffef96;
+    transition: background-color 1s;
+}
+
+.select:hover {
+    background-color: #f1c40f;
+}
+
+@media (min-width:1050px) {
+    #container {
+        margin: 0 350px 0 350px;
+    }
+
+    #footer {
+        margin: 0 350px 0 350px;
+    }
+
+    #pricing {
+        margin-left: 350px;
+    }
+
+    #warranty {
+        margin-left: 350px;
+    }
+}
+
+#description {
+    margin-bottom: -8px;
+}

@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+
+}
+
+#navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: -250px;
+
+}
+
+#main-doc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    border-left: 5px groove;
+    padding: 15px 0 0 25px;
+    margin-top: -10px;
+}
+
+p {
+    margin-left: 15px;
+}
+
+.nav-link {
+    border-top: 1px inset;
+    margin: 10px -50px 10px -55px;
+    padding-left: 70px;
+    padding-top: 18px;
+    border-width: px 0 0 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width:1050px) {
+    #navbar {
+        flex-direction: row;
+    }
+}
+
+.head1 {
+    padding: 3px;
+    font-size: 26px;
+}

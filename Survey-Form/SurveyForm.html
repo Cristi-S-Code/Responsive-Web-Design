@@ -1,0 +1,52 @@
+<main id="main">
+    <h1 id="title">Construction Engineering Survey form</h1><br>
+    <p id="description"><em>Thank you for taking the time to complete this form</em></p><br>
+    <form id="survey-form">
+
+        <label id="name-label">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" name="name-label" required><br>
+
+        <label id="email-label">Email</label>
+        <input id="email" type="email" placeholder="Enter your Email" name="email-label" required><br>
+        <label id="number-label">Age (Optional)</label>
+        <input id="number" type="number" placeholder="Age" name="number-label" min="18" max="90"><br>
+        <label for="dropdown">Wich option best describes your current role?</label>
+        <select id="dropdown">
+            <option value="" disabled selected> Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Graduated">Graduated</option>
+            <option value="Full Time Engineer">Full Time Engineer</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <label for="Satisfaction-Level">Are you pleased the path you have chosen so far to go on?</label>
+        <label for="Choice1">
+            <input id="Choice1" type="radio" name="Satisfaction-Level" value="Definitely">Definitely</label>
+        <label for="Choice2">
+            <input id="Choice2" type="radio" name="Satisfaction-Level" value="Almost">Almost</label>
+        <label for="Choice3">
+            <input id="Choice3" type="radio" name="Satisfaction-Level" value="Not Yet">Not Yet</label><br>
+        <label for="MostPleasing">What do you like <strong>the most</strong> about this domain</label>
+        <select id="MostPleasing">
+            <option value="" disabled selected>Select your choice</option>
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Construction Sites">Construction Sites</option>
+            <option value="Bidding and estimations">Bidding and estimations</option>
+            <option value="Structural design">Structural design</option>
+        </select><br>
+        <label id="Improvement">What would you like to see improved?</label>
+        <label for="C1"><input id="C1" type="checkbox" name="Improvement" value="Human kindness">Human kindness</label>
+        <label for="C2"><input id="C2" type="checkbox" name="Improvement" value="Collaboration">Collaboration</label>
+        <label for="C3"><input id="C3" type="checkbox" name="Improvement" value="Technology">Technology</label>
+        <label for="C4"><input id="C4" type="checkbox" name="Improvement" value="Availability">Availability</label>
+        <label for="C5"><input id="C5" type="checkbox" name="Improvement" value="Clearer laws">Clearer laws</label></br>
+        <label class="textarea"> Any comments or suggestion?</label>
+
+        <textarea placeholder="Enter your opinion here..." rows="4" columns="50">
+                  </textarea></label><br>
+
+        <button id="submit" type="submit">Submit</button><br>
+
+    </form>
+</main>

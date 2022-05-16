@@ -1,0 +1,79 @@
+#main {
+    display: grid;
+    background-color: rgba(0, 40, 70, 0.8);
+    color: white;
+    padding: 50px;
+    justify-content: center;
+    font-family: serif, sans serif, cursive, fantasy, monospace;
+    margin: -15px;
+}
+
+#title {
+    text-align: center;
+    justify-content: center;
+    margin-top: -20px;
+    font-size: 35px;
+}
+
+#description {
+    margin-top: -15px;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    font-family: Arial;
+}
+
+#survey-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    opacity: 1;
+    justify-content: center;
+    display: grid;
+    grid-row-gap: 2px;
+    padding: 25px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+body {
+    background-image: url('https://www.build-review.com/wp-content/webp-express/webp-images/uploads/2021/03/Civil-engineers.jpg.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+input [type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#MostPleasing {
+    width: 100%;
+    padding: 4px 13px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: cursive;
+    color: gray;
+}
+
+#submit {
+    background-color: #14A76C;
+    font-family: cursive;
+    color: white;
+    font-size: 17px;
+    padding: 7px 0px 10px;
+    BORDER-RADIUS: 5px;
+    transition: background-color 1s;
+}
+
+#submit:hover {
+    background-color: #108656;
+}

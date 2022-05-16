@@ -1,0 +1,182 @@
+a {
+    text-decoration: none;
+    color: #DB9A64;
+}
+
+#navbar {
+    position: fixed;
+    text-align: right;
+    width: 100%;
+    border-bottom: 1px groove;
+    top: 0px;
+    background: #311E25;
+    font-family: Roboto, sans-serif, monospace;
+    font-size: 20px;
+    box-shadow: 0px 3px 3px 2px grey;
+}
+
+.nav:hover {
+    margin: 0;
+    background: #7a7a7a;
+    padding: 20px 15px 20px 15px;
+}
+
+li {
+    display: inline;
+    margin: 1.5em;
+    list-style: none;
+}
+
+#welcome-section {
+    margin: 0;
+    top: 0;
+    text-align: center;
+    background-image: url("https://technext.github.io/jony/img/banner/banner.png");
+    height: 100vh;
+    font-family: Roboto, sans-serif, monospace;
+    font-size: 35px;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+}
+
+#title {
+
+    margin-top: 55px;
+}
+
+.title1 {
+    color: #DB9A64;
+}
+
+.title3 {
+    text-align: center;
+    background-color: #311E25;
+    margin: 0;
+    padding: 35px;
+    font-family: Roboto, sans-serif, monospace;
+    font-size: 30px;
+    color: #fff;
+}
+
+.card {
+    display: grid;
+    box-shadow: 2px 2px 8px 1px;
+    width: 350px;
+
+}
+
+img {
+    width: 350px;
+}
+
+#projects {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3B2930;
+    grid-gap: 30px;
+    grid-template-areas:
+        "header header header"
+        "content content content"
+        "footer footer footer";
+}
+
+@media (max-width:450px) {
+    #projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #welcome-section {
+        font-size: 15px;
+    }
+
+    .title3 {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 15px;
+
+    }
+
+    .link {
+        display: flex;
+    }
+
+    .text1 {
+        display: flex;
+    }
+}
+
+.project-tile {
+    display: grid;
+    margin: auto;
+    text-align: center;
+    border: 3px;
+    padding: 17px;
+    margin-top: -5px;
+    background-color: #474747;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #C2C2C2;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.FCC {
+    display: grid;
+    justify-content: center;
+
+}
+
+.FCC:hover {
+    font-size: 0;
+}
+
+input[type=submit] {
+    background-color: transparent;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid #DB9A64;
+    border-radius: 2px;
+    transition: background .5s;
+    color: #DB9A64;
+    font-family: Roboto, sans-serif, monospace;
+    font-size: 20px;
+}
+
+input:hover {
+    background: #DB9A64;
+    color: #fff;
+
+}
+
+input:hover::after {
+    content: attr(data-hover);
+    font-size: 20px;
+}
+
+#contact {
+    height: 100vh;
+    background-image: url("https://technext.github.io/jony/img/banner/banner.png");
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    font-family: Roboto, sans-serif, monospace;
+    font-size: 35px;
+    color: #fff;
+}
+
+.text {
+    position: relative;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+
+.link {
+    font-family: Roboto, monospace, sans-serif;
+    font-weight: bold;
+}
